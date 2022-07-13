@@ -1,0 +1,27 @@
+.header { position: relative; display: flex; justify-content: space-between; align-items: center; }  
+    .categories { display: flex; width: 234px; height: 56px; margin-top: 24px}
+        .category { text-decoration: none; padding-left: 16px; padding-right: 16px; height: 56px; font-size: 16px; color: #1d1F22; text-transform: uppercase; font-weight: 600;
+        &:hover { color: #5ECE7B; border-bottom: 2px solid #5ECE7B; }
+    }
+    .actions button { border: none; background: transparent; cursor: pointer; }
+        .cart { position: relative; }
+            .cartItems { position: absolute; width: 20px; height: 20px; background-color: #1d1F22; border-radius: 60px; bottom: -4px; right: -15px; color: #fff; text-align: center; z-index: -1; padding: 2px;}
+    .dropDown { z-index: 1; height: 170px; width: 110px; overflow: scroll; display: flex; flex-direction: column; padding: 0px; position: absolute; right: -20px; top: 50px; box-shadow: 0px 4px 35px 0px #A8ACB030;scrollbar-width: none; -ms-overflow-style: none; visibility: hidden;
+        &::-webkit-scrollbar {
+          background: transparent; /* Chrome/Safari/Webkit */
+          width: 0px;
+        }
+        &.active { visibility: visible; }
+        
+    }
+        .dropDownItem { font-size: 18px; font-weight: 500; padding: 15px; display: flex; justify-content: center; color: #1d1F22; cursor: pointer;
+        &:hover{ background-color: #EEEEEE; }
+        }
+    
+            
+                
+              
+        
+    
+
+    
